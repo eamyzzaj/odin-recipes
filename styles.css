@@ -1,13 +1,19 @@
 /* css stylesheet for odin recipe webpage */
 
-h1 {
+/* for both */
+body {
+    background-color: antiquewhite;
+}
+
+/* for home page */
+h1.main {
     text-align: center;
     color: #F5BB47;
     margin-left: 30%;
     margin-right: 30%;
 }
 
-img {
+img.chef {
     height: auto;
     width: 35%;
     display: block;
@@ -15,10 +21,40 @@ img {
     margin-right: auto;
 }
 
-h2 {
+h2.desserts {
     margin-left: 5%;
+    color: #4E6E5D;
 }
 
-ul {
+ul.desserts {
     margin-left: 4%;
+}
+
+/* for recipe pages */
+
+h1.subpage {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%; 
+    color: #4E6E5D;
+}
+
+img.recipe {
+    height: auto;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.desc {
+    color: #54414E;
+}
+
+h2.ingred {
+    color: #875C74;
+}
+
+h2.steps {
+    color: #A790A5;
 }
